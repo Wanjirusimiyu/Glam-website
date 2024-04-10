@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         makeupItems.innerHTML = "";
         const filteredItems = items.filter(item => 
             item.name.toLowerCase().includes(searchInput.value.trim().toLowerCase())
-        ).slice(0, 15);
+        ).slice(0, 100);
         if (filteredItems.length === 0) {
             const alert = document.createElement("p");
             alert.classList.add("alert")
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to fetch makeup data from the API
     const fetchMakeupData = async () => {
         try {
-            const response = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=revlon");
+            const response = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=nyx");
             const data = await response.json();
             return data;
         } catch (error) {
