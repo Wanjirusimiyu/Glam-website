@@ -1,0 +1,188 @@
+/* Global Styles */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('background-image') !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-weight: 600;
+    color:white;
+
+}
+
+nav{
+    background-color: #04615977;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+ }
+nav h1{
+    font-weight: 600;
+    color:white;   
+}
+nav h1 span{
+    font-weight: 600;
+    color:white;
+    
+}
+nav #filterContainer{
+    margin-right: 20px;
+}
+nav #filterContainer #searchInput{
+    height: 35px;
+    width: 30em;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    border: none !important;
+}
+nav #filterContainer #searchInput:focus{
+    border:2px solid #004edf;
+}
+nav #filterContainer #searchInput::placeholder{
+    text-align: center;
+    text-transform: capitalize;
+}
+nav #filterContainer #searchButton{
+    width: 10em;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background: radial-gradient(#00a2ff, #004edf,#00076d);
+    color: white;
+    transition: all .3s;
+}
+nav #filterContainer #searchButton:hover{
+    transform: scale(1.1);
+    background: #008cff;
+}
+
+/* about */
+#about{
+    margin: 40px 0;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+#about h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#about h2 div{
+    font-size: 35px;
+    font-weight: 800;
+}
+#about h2 span{
+    color: white;
+}
+#about p{
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*product display*/
+.layout{
+    padding: 10px;
+    display: flex;
+}
+#productDetails{
+    background: #00979c75;
+    position: sticky;
+    width: 40%;
+    height: 80vh;
+    border-radius: 20px;
+    top: 10%;
+    right: 10;
+    padding: 40px 20px 30px;
+}
+#productDetails h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #004edf;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#productDetails #productName{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#productDetails #productDescription{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+#productDetails #productPrice{
+    color: white;
+    text-align: end;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.container {
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+.makeup-item {
+    background: #00979c75;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+ }
+ .makeup-item:hover{
+    transform: scale(1.1);
+    background: #19ffe09a;
+ }
+.makeup-item img{
+    border-radius: 30px;
+    box-shadow: #0b0808;
+    width: 10em;
+    margin: 20px;
+}
+.makeup-item h2{
+    width: 5em;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 500;
+}
+.alert{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(0, -89px);
+}
