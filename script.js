@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         makeupItems.innerHTML = "";
         const filteredItems = items.filter(item => 
             item.name.toLowerCase().includes(searchInput.value.trim().toLowerCase())
-        ).slice(0, 50);
+        ).slice(0, 40);
         if (filteredItems.length === 0) {
             const alert = document.createElement("p");
             alert.classList.add("alert")
