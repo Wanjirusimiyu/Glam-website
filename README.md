@@ -35,6 +35,11 @@ https://glam-website.vercel.app/
 3. Click the "Search" button or press enter to initiate the search.
 4. Browse through the displayed makeup items and click on  an item to view the details.
 
+## Contacts
+In case of any Questions or Suggestions regarding this Project,feel free to reach out to me:
+* Email: wanjirusimiyu@gmail.com
+* Github: https://github.com
+
 ## License
 The project is licensed under the MIT license.See the `LICENSE` file for more details.
 
