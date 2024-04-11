@@ -1,11 +1,10 @@
 # Glamour Website
 
 ## Introduction
-This project is a single page application designed to showcase a collection of make up products using the HerokuApp API.
-It fetches and displays the Makeup Product, description and price.
+The Glamour App is an innovative and user-friendly web application designed to revolutionize the way users explore and discover makeup products. Leveraging the power of modern web technologies and the extensive Makeup API, this app offers a seamless and engaging experience for makeup enthusiasts, beauty professionals, and anyone interested in exploring the world of cosmetics.
 
 ## Developer's Name
-Joy Wanjiru
+Joy Wanjiru Simiyu
 
 ## Vercel link
 https://glam-website.vercel.app/
