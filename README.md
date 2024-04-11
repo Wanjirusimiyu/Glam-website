@@ -1,4 +1,5 @@
 # Glamour Website
+![Screenshot 2024-04-11 at 19 42 25](https://github.com/Wanjirusimiyu/Glam-website/assets/162365947/efd19c82-2c82-44eb-9c5b-9adbc3a6f0fd)
 
 
 
@@ -38,7 +39,7 @@ https://glam-website.vercel.app/
 4. Browse through the displayed makeup items and click on  an item to view the details.
 
 ## Contacts
-In case of any Questions or Suggestions regarding this Project,feel free to reach out to me:
+In case of any Questions or Suggestions regarding this Project, feel free to reach out to me:
 * Email: wanjirusimiyu@gmail.com
 * Github: https://github.com
 
