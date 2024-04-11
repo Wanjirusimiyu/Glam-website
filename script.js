@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const showProductDetails = (item) => {
         productName.textContent = item.name;
         productDescription.textContent = item.description;
-        productPrice.textContent = `Price: ${item.price ? item.price : 'N/A'}`;
+        productPrice.textContent = `Price: $${item.price ? item.price : 'N/A'}`;
         productDetails.style.display = "block";
     };
 
