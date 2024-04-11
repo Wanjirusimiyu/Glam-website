@@ -41,5 +41,8 @@ In case of any Questions or Suggestions regarding this Project,feel free to reac
 * Github: https://github.com
 
 ## License
-The project is licensed under the MIT license.See the `LICENSE` file for more details.
+
+This project is licensed under the [MIT License](LICENSE).
+
+© 2024 Joy Wanjiru Simiyu.
 
