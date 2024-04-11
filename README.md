@@ -1,5 +1,7 @@
 # Glamour Website
 
+Screenshot 2024-04-11 at 19.42.25.png
+
 ## Introduction
 The Glamour App is an innovative and user-friendly web application designed to revolutionize the way users explore and discover makeup products. Leveraging the power of modern web technologies and the extensive Makeup API, this app offers a seamless and engaging experience for makeup enthusiasts, beauty professionals, and anyone interested in exploring the world of cosmetics.
 
