@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to fetch makeup data from the API
     const fetchMakeupData = async () => {
         try {
-            const response = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=nyx");
+            const response = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=l'oreal");
             const data = await response.json();
             return data;
         } catch (error) {
