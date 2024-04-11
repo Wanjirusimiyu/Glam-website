@@ -23,10 +23,10 @@ https://glam-website.vercel.app/
  
 ## Installation and Setup
 1. Clone the Repository to your local machine;
-  git clone https://github.com/your-username/makeup-app.git 
+  `git clone https://github.com/your-username/glamour-app.git` 
 
 2. Navigate to the project directory:
-cd Glamour-app
+`cd Glamour-app`
 
 3. Open the `index.html` file in your browser to view the app.
 
