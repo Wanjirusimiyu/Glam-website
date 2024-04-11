@@ -34,11 +34,6 @@ nav h1{
     font-weight: 600;
     color:white;   
 }
-nav h1 span{
-    font-weight: 600;
-    color:white;
-    
-}
 nav #filterContainer{
     margin-right: 20px;
 }
@@ -88,9 +83,7 @@ nav #filterContainer #searchButton:hover{
     font-size: 35px;
     font-weight: 800;
 }
-#about h2 span{
-    color: white;
-}
+
 #about p{
     line-height: 1.4;
     font-size: 16px;
